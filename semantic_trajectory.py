@@ -3,7 +3,7 @@ import numpy as np
 import openai
 import transformers
 
-DEFAULT_ENGINE = 'text-similarity-ada-001'
+DEFAULT_ENGINE = 'text-embedding-ada-002'
 DEFAULT_OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
